@@ -10,3 +10,9 @@ We plan in the future to permit different hashing and signing algorithms.
 # Requirements
 - Python >3.8
 - Pycryptodome library
+
+# How to use
+
+- RSA_Generate allows you to generate several RSA keys which can then be writen in a file;
+- RSA_PKCS1_v1_5_Sign allows you to sign some input with an RSA key. A json file is writen with the public key, hash and signature, as big integers.
+- Circom Input Builder will write a JSON file that serves as input to the Efficient and Strong group signature circuits used [here](https://github.com/tmorais-fctunl/Circom-group-rsa-verify)
